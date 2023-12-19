@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+body {
+  margin: 0;
+}
+
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  grid-gap: 10px; /* Adjust the gap between items as needed */
+  width: 200px;
+  height: 200px;
+}
+
+.item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
